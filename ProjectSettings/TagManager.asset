@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ship
   - Planet
+  - Generator
   layers:
   - Default
   - TransparentFX

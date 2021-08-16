@@ -11,6 +11,7 @@ public class CollisionChecking : MonoBehaviour
     private void Awake()
     {
         TravelUI = GameObject.Find("TravelUI");
+        TravelUI.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
